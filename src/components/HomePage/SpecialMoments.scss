@@ -1,0 +1,75 @@
+.special-moments{
+  display: flex;
+  width: 100%;
+  padding-top: 153px;
+  &-left{
+    width: 50%;
+    position: relative;
+    &__bread{
+      position: absolute;
+      top: 90px;
+      left: 130px;
+      z-index: 2;
+    }
+    &__breads{
+      top: 300px;
+      left: 200px;
+      position: absolute;
+      z-index: 3;
+    }
+    &__background{
+      top: 200px;
+      left: 100px;
+      z-index: 1;
+      position: absolute;
+    }
+    &__points-left{
+      position: absolute;
+      top: 480px;
+      left: 60px;
+      z-index: 2;
+    }
+    &__points-right{
+      position: absolute;
+      right: 40px;
+      top: 130px;
+      z-index: 2 ;
+
+    }
+
+  }
+  &-right{
+    width: 50%;
+    padding-bottom: 200px ;
+    &-box{
+      &__title{
+        margin-top: 103px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+      }
+      &__description{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: rgba(51, 51, 51, 0.496405);
+        padding: 30px 0 30px;
+      }
+
+    }
+    li{
+      list-style: none;
+
+    }
+    li:not(:last-child){
+      margin-bottom: 16px;
+    }
+  }
+
+
+
+}

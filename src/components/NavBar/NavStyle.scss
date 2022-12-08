@@ -1,0 +1,53 @@
+.navbar {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  &-items {
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    &__main {
+      display: flex;
+      align-items: center;
+    }
+
+    &__logo {
+      font-family: 'Ultra';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 48px;
+      color: #000;
+      text-decoration: none;
+    }
+
+    &__wrapper {
+      max-width: 289px;
+      width: 100%;
+      margin-left: 72px;
+
+      >a{
+        text-decoration: none;
+
+      }
+
+      > a:not(:first-child) {
+        margin-left: 32px;
+      }
+
+      &-links {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: black;
+      }
+    }
+  }
+}
