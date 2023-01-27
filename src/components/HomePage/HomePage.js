@@ -5,6 +5,7 @@ import BakedWithLove from "./BakedWithLove";
 import Products from "./Products";
 import Video from "./Video";
 import Slider from "./Slider";
+import Footer from "../Footer/Footer";
 
 export default function HomePage(){
     return (
@@ -16,7 +17,7 @@ export default function HomePage(){
             <BakedWithLove/>
             <Video/>
             <Products/>
-
+            <Footer/>
         </>
     )
 
