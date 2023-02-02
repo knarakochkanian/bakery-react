@@ -5,11 +5,11 @@ export default function SpecialMoments() {
     return (
         <section className='special-moments'>
             <div className='special-moments-left'>
-                <img className='special-moments-left__breads' src='/assets/images/Home/Bitmap.png' />
-                <img  className='special-moments-left__bread' src='/assets/images/Home/Bitmap(1).png' />
-                <img  className='special-moments-left__points-left' src='/assets/images/Home/CombinedShape(1).png' />
-                <img  className='special-moments-left__points-right' src='/assets/images/Home/CombinedShape.png' />
-                <img  className='special-moments-left__background' src='/assets/images/Home/Shape.png' />
+                <img className='special-moments-left__breads' src='assets/images/Home/Bitmap.png' />
+                <img  className='special-moments-left__bread' src='assets/images/Home/Bitmap(1).png' />
+                <img  className='special-moments-left__points-left' src='assets/images/Home/CombinedShape(1).png' />
+                <img  className='special-moments-left__points-right' src='assets/images/Home/CombinedShape.png' />
+                <img  className='special-moments-left__background' src='assets/images/Home/Shape.png' />
 
             </div>
             <div className='special-moments-right'>
