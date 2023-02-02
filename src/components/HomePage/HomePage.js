@@ -11,7 +11,6 @@ export default function HomePage(){
     return (
         <>
             <FreshBakery/>
-
             <SpecialMoments/>
             <Slider/>
             <BakedWithLove/>
