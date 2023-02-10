@@ -1,0 +1,23 @@
+@mixin title{
+  font-family: 'Ultra';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+}
+@mixin descriptionUpp{
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+@mixin description{
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.496405);
+}
