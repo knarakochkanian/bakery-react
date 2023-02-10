@@ -17,7 +17,7 @@ export default function FreshBakery() {
                 </div>
             </div>
             <div className='fresh-bakery-right'>
-                <img src={process.env.PUBLIC_URL + '/assets/images/Home/Background.png'} alt='fresh'/>
+                <img src={`${process.env.PUBLIC_URL}/assets/images/Home/Background.png`} alt='fresh'/>
             </div>
         </section>
     );
