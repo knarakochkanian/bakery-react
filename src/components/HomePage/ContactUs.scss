@@ -1,0 +1,37 @@
+.contact-us{
+  margin: 140px;
+  display: flex;
+  &-images{
+    position: relative;
+    width: 50%;
+    height: 700px;
+    >img:nth-child(1){
+      position: absolute;
+      z-index: 4;
+      width: 100%;
+      max-width: 468px;
+    }
+    >img:nth-child(2){
+      position: absolute;
+      z-index: 3;
+      top: -28px;
+      right: 122px;
+    }
+    >img:nth-child(3){
+      position: absolute;
+      z-index: 2;
+      width: 100%;
+      left: 0;
+      bottom: 7px;
+    }
+    >img:nth-child(4){
+      position: absolute;
+      z-index: 2;
+      right: 22px;
+      top: 25px;
+    }
+  }
+  &-info{
+    width: 50%;
+  }
+}

@@ -1,0 +1,57 @@
+@import "src/components/mixins";
+.work{
+  background-color: #171B1B;
+  padding: 80px 0;
+  &-desc{
+    @include descriptionUpp;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+  }
+  &-title{
+    @include title;
+    color: white;
+    text-align: center;
+    padding: 18px 0 70px 0;
+  }
+  &-cards{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+  }
+  &-card{
+    background-color: white;
+    max-width: 190px;
+    width: 100%;
+    padding: 50px;
+    height: 260px;
+    position: relative;
+    transition: 0.3s;
+    >h5{
+      font-family: 'Ultra';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 48px;
+    }
+    >span{
+      @include description
+    }
+    &:hover{
+      z-index: 3;
+      transform: scale(1.1);
+      background-color: #FBB65F;
+
+      .work-card__img{
+        display: block;
+      }
+    }
+    &__img{
+      position: absolute;
+      display: none;
+      right: 0;
+      top: 0;
+
+    }
+
+  }
+}

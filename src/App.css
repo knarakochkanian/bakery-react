@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
 }
-
 .App-header {
   font-family: 'Ultra';
   font-style: normal;
@@ -12,9 +11,16 @@
   text-align: center;
   color: #171B1B;
 }
-.container{
+
+main{
   max-width: 1440px;
   width: 100%;
+  height: 200rem;
+}
+.container{
+  max-width: 1150px;
+  width: 100%;
+  margin: auto;
 }
 .button-black{
   width: 138px;

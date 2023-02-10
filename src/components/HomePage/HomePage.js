@@ -6,6 +6,8 @@ import Products from "./Products";
 import Video from "./Video";
 import Slider from "./Slider";
 import Footer from "../Footer/Footer";
+import Work from "./Work";
+import ContactUs from "./ContactUs";
 
 export default function HomePage(){
     return (
@@ -16,6 +18,8 @@ export default function HomePage(){
             <BakedWithLove/>
             <Video/>
             <Products/>
+            <Work/>
+            <ContactUs/>
             <Footer/>
         </>
     )
