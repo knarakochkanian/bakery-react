@@ -1,6 +1,6 @@
+@import "src/components/mixins";
 .contact-us{
   margin: 140px;
-  display: flex;
   &-images{
     position: relative;
     width: 50%;
@@ -27,11 +27,54 @@
     >img:nth-child(4){
       position: absolute;
       z-index: 2;
-      right: 22px;
+      right: -24px;
       top: 25px;
     }
   }
   &-info{
     width: 50%;
+    padding-left: 100px;
+    >h2{
+      @include descriptionUpp;
+    }
+    >h1{
+      margin: 0;
+      max-width: 287px;
+      width: 100%;
+    }
+    &__text{
+      display: flex;
+      align-items: center;
+      margin-top: 62px;
+      >div:nth-child(1){
+        padding-right: 60px;
+      }
+      >img{
+        padding: 16px;
+        margin-right: 68px;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: black;
+        transition: 0.3s;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+    &__description{
+      >div:nth-child(2){
+        margin: 22px 0;
+      }
+      >div:nth-child(3){
+        max-width: 142px;
+        width: 100%;
+        @include description;
+      }
+    }
+  }
+  .container {
+    display:flex ;
+    justify-content: space-around;
   }
 }

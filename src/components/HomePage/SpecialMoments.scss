@@ -69,7 +69,26 @@
       margin-bottom: 16px;
     }
   }
+}
+@media screen and (max-width: 992px) {
+  .special-moments{
+    padding-top: 40px;
+    display: block;
+    &-right{
+    >div:first-child{
+      margin-bottom: 20px;
 
+      }
+      width: 100%;
+      padding: 16px;
 
+      &-box__title{
+        margin-top: 20px;
+      }
+    }
+    &-left{
+      display: none;
+    }
 
+  }
 }

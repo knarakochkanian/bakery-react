@@ -5,7 +5,7 @@ export default function FreshBakery() {
     return (
         <section className='fresh-bakery'>
             <div className='fresh-bakery-left'>
-                <img src={`bakery-react/assets/images/Home/bread.png`} className='fresh-bakery-left__bread' alt='bread' />
+                <img src={`${process.env.PUBLIC_URL}/assets/images/Home/bread.png`} className='fresh-bakery-left__bread' alt='bread' />
                 <div className='fresh-bakery-left__sience title-top'>
                     Sience 1984
                 </div>
